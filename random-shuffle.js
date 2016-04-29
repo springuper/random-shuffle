@@ -49,7 +49,7 @@ function getRand(range)
 */
 function shuffle(arr)
 {
-  for(i = arr.length - 1; i > 0; i--)
+  for(var i = arr.length - 1; i > 0; i--)
   {
     var j = getRand(i+1);
     var tmp = arr[i];
